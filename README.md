@@ -4,6 +4,12 @@ An intelligent, autonomous software development assistant that bridges project m
 
 ---
 
+## 🎬 Live Demo Video
+
+![AI Dev Agent Workflow Demo](docs/assets/demo_video.webp)
+
+---
+
 ## 🎯 Architecture & Workflow
 
 ```text
