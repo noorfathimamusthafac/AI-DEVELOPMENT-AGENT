@@ -12,7 +12,7 @@ An intelligent, autonomous software development assistant that bridges project m
 
 ## 🎯 Architecture & Workflow
 
-```text
+
 ┌────────────────────────────────────────────────────────┐
 │               OpenProject Work Board                   │
 │   (Work items: BUG-101, FEAT-102, Status, Priority)    │
