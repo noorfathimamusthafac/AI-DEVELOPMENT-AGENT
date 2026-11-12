@@ -93,33 +93,6 @@ An intelligent, autonomous software development assistant that bridges project m
 - Python (3.10+)
 - Git
 
-### 1. Backend Setup
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
-```
-Backend will be available at `http://localhost:8000`. Interactive OpenAPI documentation is accessible at `http://localhost:8000/docs`.
-
-### 2. Frontend Setup
-```bash
-cd frontend
-npm install
-npm run dev
-```
-Open `http://localhost:5173` in your browser.
-
-### 3. Demo Walkthrough
-1. Log in with the pre-filled **Developer** credentials (`dev@example.com` / `password123`).
-2. On the OpenProject Work Board, locate **BUG-101: Login fails with invalid password**.
-3. Click the **[Run Agent]** button.
-4. Watch the live 10-step progress stepper and streaming terminal logs execute in real time.
-5. Inspect the generated Git branch and commit hash.
-6. Click **Inspect Git Diff** to review the exact patch made to `auth_service.py`.
-7. Click **Reset Demo State** at any time to revert the test repository and re-run the demonstration!
-
----
-
 ## 🧪 Running Automated Tests
 
 Run backend integration and auth tests:
